@@ -35,8 +35,6 @@ def get_prices(page)
 end
 
 def hash_data(data1,data2)
-	puts data1.class
-	puts data2.class
 	result = []
 	data1.each_with_index do |key,value|
 		result << { key => data2[value]}
